@@ -249,4 +249,206 @@ p {
   padding-left: 20px;
 }
 
+/* Education */
 
+.education {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.education article {
+  padding: 25px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.education span {
+  color: #0077cc;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* Projects */
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.project {
+  padding: 25px;
+
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 15px;
+}
+
+.project .technologies {
+  color: #777;
+  font-size: 14px;
+}
+
+.project a {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+
+/* Code */
+
+pre {
+  overflow-x: auto;
+
+  padding: 25px;
+
+  background: #222;
+  color: #eee;
+
+  border-radius: 5px;
+}
+
+code {
+  font-family: Consolas, monospace;
+}
+
+
+/* Languages */
+
+.languages {
+  max-width: 600px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.languages li {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid #ddd;
+}
+
+.languages span {
+  color: #666;
+}
+
+
+/* Footer */
+
+footer {
+  padding: 25px 0;
+
+  color: #fff;
+  background: #222;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-content p {
+  margin: 0;
+  color: #ccc;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #66b3ff;
+}
+
+
+/* Responsive */
+
+@media (max-width: 750px) {
+
+  .header-content {
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .nav-list {
+    justify-content: center;
+  }
+
+  .intro-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  .contacts,
+  .skills,
+  .education,
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .experience {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 450px) {
+
+  .container {
+    width: 92%;
+  }
+
+  .nav-list {
+    gap: 10px;
+  }
+
+  .nav-list a {
+    font-size: 12px;
+  }
+
+  .intro {
+    padding: 50px 0;
+  }
+
+  .photo,
+  .photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 27px;
+  }
+}
