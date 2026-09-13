@@ -142,3 +142,111 @@ h1 {
   background: #005fa3;
 }
 
+
+/* Sections */
+
+.section {
+  padding: 70px 0;
+}
+
+.gray {
+  background: #f3f5f7;
+}
+
+h2 {
+  margin: 0 0 35px;
+
+  font-size: 32px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  color: #555;
+}
+
+
+/* Contacts */
+
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.contacts div {
+  padding: 20px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contacts strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contacts a {
+  color: #0077cc;
+}
+
+
+/* About */
+
+.about-text {
+  max-width: 800px;
+}
+
+
+/* Skills */
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.skill-group {
+  padding: 25px;
+
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.skill-group h3 {
+  color: #0077cc;
+}
+
+.skill-group ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+
+/* Experience */
+
+.experience {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 40px;
+}
+
+.experience-date {
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.company {
+  margin-top: -10px;
+
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.experience ul {
+  padding-left: 20px;
+}
+
+
